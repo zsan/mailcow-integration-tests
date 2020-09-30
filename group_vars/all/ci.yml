@@ -11,3 +11,4 @@ mailcow__git_repo:            "{{ ci_mailcow__git_repo | default('https://github
 mailcow__git_http_url:        "{{ ci_mailcow__git_http_url | default('https://github.com/mailcow/mailcow-dockerized') }}"
 mailcow__git_version:         "{{ ci_mailcow__git_version | default('master') }}"
 mailcow__upload_results:      "{{ ci_mailcow__upload_results | default(false) }}"
+mailcow_mailbox_pw:           "{{ ci_mailcow__mailbox_pw | default('foobarbaz' }}"
