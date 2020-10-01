@@ -69,8 +69,8 @@
 - name: Run read only API tests
   import_tasks: tests/read_only_api.yml
 
-- name: Generate report mailcow.email
-  import_tasks: reports/generate_mailcowemail.yml
+# - name: Generate report mailcow.email
+#   import_tasks: reports/generate_mailcowemail.yml
 
-- name: Final arragation
-  import_tasks: reports/final_arragation.yml
+# - name: Final arragation
+#   import_tasks: reports/final_arragation.yml
