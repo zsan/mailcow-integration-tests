@@ -111,6 +111,6 @@
     result_sendmail_not_allowed_alias_sucess: success
   when: "'Sender address rejected: not owned by user' in result_sendmai_not_allowed_alias.msg"
 
-- set_fact:
-    result_sendmail_not_allowed_alias_sucess: failed
-  when: "'Sender address rejected: not owned by user' not in result_sendmai_not_allowed_alias.msg"
+# - set_fact:
+#     result_sendmail_not_allowed_alias_sucess: failed
+#   when: "'Sender address rejected: not owned by user' not in result_sendmai_not_allowed_alias.msg"
